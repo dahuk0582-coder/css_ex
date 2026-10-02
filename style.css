@@ -1,16 +1,47 @@
- h1{
-     color:blue; 
-     background-color:yellow;
-     border:2px solid red;
-     padding:20px;
-     border-radius:50px;
-     box-shadow: rgba(0,0,0,0.16)0px 3px        6px,rgba(0,0,0,0.23)0px 3px 6px; 
-         }
-     
-    p{
-      font-weight:bold;
-      text-align:center;}
-      li{
-      text-decoration:underline;
-      }
+*{
+font-family: 고딕체;
   
+}
+
+h1{
+  color:blue; 
+  background-color:yellow;
+  border:2px solid red;
+  padding:20px;
+  border-radius:50px;
+  box-shadow: rgba(0,0,0,0.16)0px 3px        6px,rgba(0,0,0,0.23)0px 3px 6px; 
+         }
+
+h1:hover{
+  background-color:green;
+}
+p{
+  font-weight:bold;
+  text-align:center;}
+li{
+  text-decoration:underline;
+      }
+#next {
+   background-color:orange;
+}
+#next:hover{
+  background-color:pink;
+#later {
+  color:pink;
+ 
+} 
+li.inner {
+  text-decoration:none;
+  color:green;
+}
+#later,li.inner {
+  font-weight:bold;
+}
+
+h3 div {
+color:red;
+}
+
+h3 > div {
+color: blue;
+}
